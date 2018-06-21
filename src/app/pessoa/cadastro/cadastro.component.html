@@ -1,0 +1,56 @@
+<form (ngSubmit)="salvar()">
+
+
+
+    <br/>
+    <h3>{{titulo}}</h3>
+
+    <label>Código:
+        <input type="input" name="codigo" size="10" [(ngModel)]="pessoa.codigo" disabled/>
+    </label><br/><br/>
+
+    <label>Nome:
+        <input type="input" name="nome" size="40" [(ngModel)]="pessoa.nome"/>
+    </label><br/><br/>
+
+    <label>Sobrenome:
+        <input type="input" name="sobrenome" size="35" [(ngModel)]="pessoa.sobrenome"/>
+    </label><br/><br/>
+
+    <label>Endereço:
+        <input type="input" name="endereco" size="37" [(ngModel)]="pessoa.endereco"/>
+    </label><br/><br/>
+
+    <label>Bairro:
+        <input type="input" name="bairro" size="40" [(ngModel)]="pessoa.bairro"/>
+    </label><br/><br/>
+
+    <label>Numero:
+        <input type="input" name="numero" size="10" [(ngModel)]="pessoa.numero"/>
+    </label><br/><br/>
+
+
+    <label>Email:
+        <input type="input" name="email" size="40" [(ngModel)]="pessoa.email"/>
+    </label><br/><br/>
+
+    <label>Senha:
+        <input type="password" name="senha" size="40" [(ngModel)]="pessoa.senha"/>
+    </label><br/><br/>
+
+
+
+
+
+<br/>
+
+
+
+
+    <label>Registro Ativo:
+        <input type="radio" name="ativo" [(ngModel)]="pessoa.ativo" [value]="true">Sim
+        <input type="radio" name="ativo" [(ngModel)]="pessoa.ativo" [value]="false">Não<br>
+    </label><br/><br/>
+
+    <button type="submit">Salvar</button>
+</form>
