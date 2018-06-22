@@ -1,30 +1,10 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<html>
+<body>
 
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="mobile-web-app-capable" content="yes">
-      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <title>Exercício (Jquery)</title>
-      <!-- Bootstrap -->
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">      <link rel="stylesheet" href="assets/js/chosen/docsupport/prism.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.css">
-
-      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-   </head>
-   <body>
-      <div class="container mt-3">
+<div class="container mt-3">
          <div class="row">
             <div class="col">
                <div class="card">
@@ -35,37 +15,21 @@
                      <form class="form-inline">
                          <select class="form-control" id="nmProduto" style="max-width: 300px;">
                            <option value="">Selecione o Produto</option>
-                           <option>SUPORTE PARA CARIMBO DE MADEIRA COM 06</option>
-                           <option>BOTON PERSONALIZADO - SESMT</option>
-                           <option>RELOGIO DESPERTADOR 0 A 60 MIN.</option>
-                           <option>ETIQUETA A4 254 25,4X99,0MM - PIMACO</option>
-                           <option>PORTA CARTAO DE VISITA PARA 160</option>
-                           <option>TRILHO PARA PASTA 100MM</option>
-                           <option>PERFIL PLASTICO AZUL 3 X 95 CM</option>
-                           <option>AGENDA 2015 - PERSONALIZADA FCV</option>
-                           <option>ETIQUETA A4 6180 2,5X6,6 - PIMACO</option>
-                           <option>BOBINA PARA IMPRESSORA 1VIA 76MM</option>
-                           <option>CANETA PARA RETRO PROJETOR VERMELHA 1.0MM</option>
-                           <option>JOGO DE LETRAS E NUMEROS PARA TABELA</option>
-                           <option>ETIQUETA ADESIVA A4 C/25</option>
-                           <option>PASTA POLIONDA C/ ELASTICO 35MM - AZUL</option>
-                           <option>BOTON PERSONALIZADO - CIPA</option>
-                           <option>PERFURADOR DE PAPEL PARA 70 FOLHAS</option>
-                           <option>RELOGIO DESPERTADOR</option>
-                           <option>CORRETIVO FITA 8M</option>
-                           <option>CAPA PLASTICA P/ CARTEIRA RADIO/ QUIMIO</option>
-                           <option>GRAMPO PARA GRAMPEADOR 23/15 C/1000UN</option>
-                           <option>CRACHA PLASTICO COM PRENDEDOR</option>
-                           <option>GRAMPEADOR PARA 200 FOLHAS GRAMPO 23/10</option>
-                           <option>CAIXA PAPELAO ARQUIVO MORTO OFICIO</option>
-                           <option>AGENDA PARA TELEFONE</option>
+                           <option>ARROZ</option>
+                           <option>TRIGO</option>
+                           <option>SOJA</option>
+                           <option>CEVADA</option>
+                           <option>FEIJAO PRETO</option>
+                           <option>FEIJAO CARIOCA</option>
+                           <option>SEMENTE GIRASSOL</option>
+
                          </select>
 
                          <label class="sr-only" for="inlineFormInput">Quantidade</label>
                          <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0 ml-sm-2" id="qtProduto" placeholder="Quant" style="width:70px">
                          <label class="sr-only" for="inlineFormInput">Valor</label>
                          <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="vlProduto" placeholder="Valor (R$)" style="width:98px">
-                         <button type="submit" class="btn btn-primary" id="btnAdicionarProduto">+</button>
+                         <button type="submit" class="btn btn-success" id="btnAdicionarProduto">+</button>
                          <p class="text-danger ml-3 pt-2 invisible" id="msgValidaForm">Favor preencher <strong>todos os campos</strong> do produto!</p>
                      </form>
                      <table class="table table-sm table-striped mt-3 table-produtos">
@@ -102,5 +66,6 @@
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.jquery.js" type="text/javascript"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.js" type="text/javascript"></script>
-   </body>
+
+</body>
 </html>
