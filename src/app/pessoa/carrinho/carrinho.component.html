@@ -1,100 +1,28 @@
-<html>
-
-  <head>
-
-  </head>
-
-  <body>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<!--####
-### How to add in your boostrap project
-1) Add jQuery "<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>"
-2) Download fancybox (https://github.com/fancyapps/fancyBox)
-3) Or use CDN (http://cdnjs.com/libraries/fancybox)
-####--!>
+  <section>
+    <h3>Produtos individuais.</h3>
+    <div>
+      <a class="example-image-link" href="https://sfagro.uol.com.br/wp-content/uploads/2017/01/2301-colheita-soja-6.jpg" data-lightbox="example-1"><img class="example-image" src="https://cdn.awsli.com.br/400x400/4/4552/produto/605575/2b712f7690.jpg" height="150" width="250" alt="image-1" /></a>
+      <a class="example-image-link" href="https://www.comidaereceitas.com.br/img/sizes/600x400/2014/08/feijao_preto.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="https://www.naturalcura.com.br/wp-content/uploads/2018/02/beneficios-do-feijao-preto.jpg" height="150" width="250" alt="image-1"/></a>
+      <a class="example-image-link" href="http://www.esalq.usp.br/cprural/upimg/ck/files/trigo%20embrapa.jpg" data-lightbox="example-3" data-title="Optional caption."><img class="example-image" src="https://cdn.noticiasagricolas.com.br/dbimagens/c28580bf637eb4d773746997d1b4d2b1.jpg" height="150" width="250" alt="image-1"/></a>
+      <a class="example-image-link" href="https://www.dicasdemulher.com.br/wp-content/uploads/2017/09/beneficios-do-oleo-de-girassol-2.jpg" data-lightbox="example-3" data-title="Optional caption."><img class="example-image" src="https://www.naturalcura.com.br/wp-content/uploads/2017/12/beneficios-sementes-de-girassol.jpg" height="150" width="250" alt="image-1"/></a>
+      <a class="example-image-link" href="https://sfagro.uol.com.br/wp-content/uploads/2017/01/1201-milho-15.jpg" data-lightbox="example-3" data-title="Optional caption."><img class="example-image" src="http://www.yucatan.com.mx/wp-content/uploads/2018/04/maiz.jpg" height="150" width="250" alt="image-1"/></a>
 
-<!-- References: https://github.com/fancyapps/fancyBox -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    </div>
 
-<div class="container">
-	<div class="row">
-		<div class='list-group gallery'>
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-              <a class="thumbnail fancybox" rel="ligthbox" href="assets\Imagens\trigo.jpg">
-                  <img src="assets\Imagens\trigo.jpg" class="img-responsive" alt="Image" style="width:100%"/>
-                    <div class='text-right'>
-                        <small class='text-muted'>Trigo</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-              <a class="thumbnail fancybox" rel="ligthbox" href="assets\Imagens\soja.jpeg">
-                  <img src="assets\Imagens\soja.jpeg" class="img-responsive" alt="Image" style="width:100%"/>
-                    <div class='text-right'>
-                        <small class='text-muted'>Soja</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-              <a class="thumbnail fancybox" rel="ligthbox" href="assets\Imagens\milho.jpg">
-                  <img src="assets\Imagens\milho.jpg" class="img-responsive" alt="Image" style="width:100%"/>
-                    <div class='text-right'>
-                        <small class='text-muted'>Milho</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-              <a class="thumbnail fancybox" rel="ligthbox" href="assets\Imagens\girassol.jpg">
-                  <img src="assets\Imagens\girassol.jpg" class="img-responsive" alt="Image" style="width:100%"/>
-                    <div class='text-right'>
-                        <small class='text-muted'>Semente de Girassol</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-              <a class="thumbnail fancybox" rel="ligthbox" href="assets\Imagens\feijaoP.jpg">
-                  <img src="assets\Imagens\feijaoP.jpg" class="img-responsive" alt="Image" style="width:100%"/>
-                    <div class='text-right'>
-                        <small class='text-muted'>Fejao Preto</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div> <!-- col-6 / end -->
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-              <a class="thumbnail fancybox" rel="ligthbox" href="assets\Imagens\feijaoC.jpg">
-                  <img src="assets\Imagens\feijaoC.jpg" class="img-responsive" alt="Image" style="width:100%"/>
-                    <div class='text-right'>
-                        <small class='text-muted'>Feijao Carioca</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div>
+    <hr />
 
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-              <a class="thumbnail fancybox" rel="ligthbox" href="assets\Imagens\cevada.jpg">
-                  <img src="assets\Imagens\cevada.jpg" class="img-responsive" alt="Image" style="width:100%"/>
-                    <div class='text-right'>
-                        <small class='text-muted'>Cevada</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div>
+    <h3>Grupo de Produtos</h3>
+    <div>
+      <a class="example-image-link" href="https://static.noticiasaominuto.com/stockimages/1920/naom_57bbfa9438328.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="https://static.noticiasaominuto.com/stockimages/1920/naom_57bbfa9438328.jpg" height="150" width="250" alt=""/></a>
+      <a class="example-image-link" href="https://farmacotecnica.com.br/content/images/uploaded/os-beneficios-dos-graos-na-reeducacao-alimentar-farmacotecnica-farmacia-manipulacao.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="https://farmacotecnica.com.br/content/images/uploaded/os-beneficios-dos-graos-na-reeducacao-alimentar-farmacotecnica-farmacia-manipulacao.jpg" height="150" width="250" alt="" /></a>
+      <a class="example-image-link" href="https://www.feitodeiridium.com.br/wp-content/uploads/2018/01/gr%C3%A3os-1200x600.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="https://www.feitodeiridium.com.br/wp-content/uploads/2018/01/gr%C3%A3os-1200x600.jpg" height="150" width="250" alt="" /></a>
+      <a class="example-image-link" href="https://www.altoastral.com.br/wp-content/uploads/2016/07/shutter.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="https://www.altoastral.com.br/wp-content/uploads/2016/07/shutter.jpg" height="150" width="250" alt="" /></a>
+      <a class="example-image-link" href="https://abrilsuperinteressante.files.wordpress.com/2017/10/por-que-os-cereais-integrais-sc3a3o-mais-caros-que-os-refinados.png" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="https://abrilsuperinteressante.files.wordpress.com/2017/10/por-que-os-cereais-integrais-sc3a3o-mais-caros-que-os-refinados.png" height="150" width="250" alt="" /></a>
 
-            <div class='col-sm-4 col-xs-6 col-md-3 col-lg-3'>
-                <a class="thumbnail fancybox" rel="ligthbox" href="assets\Imagens\arroz.jpg">
-                    <img src="assets\Imagens\arroz.jpg" class="img-responsive" alt="Image" style="width:100%"/>
-                    <div class='text-right'>
-                        <small class='text-muted'>Arroz</small>
-                    </div> <!-- text-right / end -->
-                </a>
-            </div>
-             <!-- col-6 / end -->
-
-        </div> <!-- list-group / end -->
-	</div> <!-- row / end -->
-</div> <!-- container / end -->
-  </body>
-
-</html>
+    </div>
+  </section>

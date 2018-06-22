@@ -34,8 +34,8 @@ export class LoginComponent implements OnInit {
   public LogOn(){
     this.pessoaService.getPessoas().subscribe(
       res =>  {
-        this.pessoas = res;});
-        this.valida();
+        this.pessoas = res;
+        this.valida();});
   }
 
   public valida(){
@@ -47,7 +47,7 @@ export class LoginComponent implements OnInit {
       }
     }
     if(v){
-      window.location.href = "\home";
+      window.location.href = "/home";
     }
     else{
       alert("EMAIL OU SENHA INVALIDOS!");
